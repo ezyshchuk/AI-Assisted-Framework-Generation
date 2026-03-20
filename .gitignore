@@ -1,0 +1,19 @@
+# node
+node_modules/
+
+# Playwright outputs
+playwright-report/
+test-results/
+.playwright/
+
+# TypeScript compiled output
+dist/
+
+# Environment overrides (never commit secrets)
+.env
+.env.local
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/settings.json
